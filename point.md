@@ -1,0 +1,2 @@
+- AngularJS use DI
+- controller, view, model

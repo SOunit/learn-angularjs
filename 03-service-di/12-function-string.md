@@ -1,0 +1,2 @@
+- function can be string
+- angular can detect arguments by searching string of function
