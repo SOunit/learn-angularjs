@@ -1,2 +1,4 @@
 - AngularJS use DI
 - controller, view, model
+- service check argument and if argument match, AngularJS pass object
+  - $scope
