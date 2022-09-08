@@ -1,0 +1,2 @@
+- `keypress` event register function to event stack
+- AngularJS take advantage of this for developer
