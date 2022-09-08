@@ -16,11 +16,15 @@ myApp.controller('mainController', [
     rulesrequest.onreadystatechange = function () {
       $scope.$apply(function () {
         if (rulesrequest.readyState == 4 && rulesrequest.status == 200) {
-          $scope.rules = JSON.parse(rulesrequest.responseText);
+          $scope.users = JSON.parse(rulesrequest.responseText);
         }
       });
     };
-    rulesrequest.open('GET', 'http://localhost:54765/api', true);
+    rulesrequest.open(
+      'GET',
+      'https://jsonplaceholder.typicode.com/users',
+      true
+    );
     rulesrequest.send();
   },
 ]);
