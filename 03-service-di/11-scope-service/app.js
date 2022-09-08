@@ -1,11 +1,11 @@
-var angularApp = angular.module("angularApp", []);
+var angularApp = angular.module('angularApp', []);
 
-angularApp.controller("mainController", function ($scope) {
-  $scope.name = "Jack Pearson";
-  $scope.occupation = "Coder";
+angularApp.controller('mainController', function ($scope) {
+  $scope.name = 'Jack Pearson';
+  $scope.occupation = 'Coder';
 
   $scope.getName = function () {
-    return "John Doe";
+    return 'John Doe';
   };
 
   $scope.getName();
