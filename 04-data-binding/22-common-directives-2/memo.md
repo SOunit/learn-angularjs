@@ -1,0 +1,3 @@
+- `ng-click`
+- `ng-cloak`
+  - hide tag until AngularJS work
